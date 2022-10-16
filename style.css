@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(127, 177, 112);
+}
+
+#title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Georgia';
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-basis: content;
+    justify-content: center;
+    align-items: center;
+  }
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 800px;
+    width: 100%;
+    /* padding: 15px; */
+}
+#videoelement {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    visibility: hidden;
+}
+#compPic {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    visibility: hidden;
+}
+#play-button {
+    text-align: center;
+    font-size: 400%;
+    height: 40%;
+    font-family: open-sans;
+    background-color: grey;
+    visibility: visible;
+}
+#play-button:hover {
+    background-color: rgb(17, 119, 3);
+    color: white;
+}
